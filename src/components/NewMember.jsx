@@ -1,5 +1,5 @@
 import React from "react";
-import { MdFlight } from "react-icons/md";
+import { BsPersonPlus } from "react-icons/bs";
 import { GrCircleInformation } from "react-icons/gr";
 const NewMember = () => {
   const data = [
@@ -33,7 +33,7 @@ const NewMember = () => {
       <header className="flex justify-between items-center gap-3 py-3  border-b-[1px] border-gray-300 ">
         <div className="flex justify-center items-center gap-2">
           <div className="p-2 bg-green-600 rounded-full">
-            <MdFlight className="  text-white " />
+            <BsPersonPlus className="  text-white " />
           </div>
           <h1 className="font-bold font-sans text-md">New Members</h1>
           <GrCircleInformation className=" text-gray-700" />
